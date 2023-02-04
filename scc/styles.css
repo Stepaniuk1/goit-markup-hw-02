@@ -1,13 +1,16 @@
 :root {
+  --white-color: #ffffff;
+  --header-color: #e7e9fc;
   --main-color: #434455;
   --background-color: #e5e5e5;
   --brend-color: #4d5ae5;
   --title-color: #2e2f42;
+  --active-color: #404bbf;
 }
 
 body {
   font-family: 'Robobto', sans-serif;
-  background-color: var(--background-color);
+  background-color: var(--white-color);
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -22,7 +25,7 @@ ul {
 
 /*header*/
 .header {
-  color: #e7e9fc;
+  background-color: var(--header-color);
 }
 .logo-fisrt {
   color: var(--brend-color);
@@ -54,16 +57,102 @@ ul {
 .site-nav {
   color: var(--title-color);
   font-weight: 500;
-  font-size: 16px;
-  line-height: 1.5;
 }
 .address {
   color: var(--main-color);
-  font-family: 'Roboto';
-  font-style: normal;
+}
+.nav-link {
+  color: var(--main-color);
+}
+.nav-link:hover,
+.nav-link:focus {
+  color: var(--active-color);
+}
+.site-nav.nav-link .carrent:active {
+  color: var(--active-color);
+}
+/*hero*/
+.hero {
+  background: var(--title-color);
+}
+.hero-title {
+  color: #ffffff;
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 1.07px;
+  text-align: center;
+}
+.button-hero {
+  background: var(--brend-color);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+}
+.button-text {
+  font-weight: 500;
+
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.04em;
+
+  color: #ffffff;
+}
+
+/*section-features*/
+.section-title {
+  color: var(--title-color);
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+}
+.section-paragraph {
+  color: var(--main-color);
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
 }
 
-/*hero*/
+/*section-What are we doing*/
+.Our-Team {
+  background: #f4f4fd;
+}
+.title {
+  color: var(--title-color);
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.1;
+  text-align: center;
+  text-transform: capitalize;
+}
+
+.team {
+  background-color: var(--white-color);
+  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
+    0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+  border-radius: 0px 0px 4px 4px;
+}
+
+/*portfolio*/
+.button-filter {
+  background: #f4f4fd;
+}
+.button-filter:hover {
+  background-color: var(--active-color);
+}
+.button-filter-text {
+  color: var(--brend-color);
+}
+.button-filter-text:hover {
+  color: var(--white-color);
+}
+.filter-item {
+  border: 1px solid #e7e9fc;
+}
+/*footer-text*/
+.footer-text {
+  background-color: var(--title-color);
+  color: #e7e9fc;
+  width: 1440px;
+  height: 310px;
+  left: 0px;
+  top: 2280px;
+}
