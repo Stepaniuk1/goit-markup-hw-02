@@ -56,6 +56,10 @@ ul {
 .nav-link:focus {
   color: var(--active-color);
 }
+
+.site-nav .current {
+  color: var(--brend-color);
+}
 .site-nav.nav-link .carrent:active {
   color: var(--active-color);
 }
@@ -71,17 +75,13 @@ ul {
 }
 .button-hero {
   background: var(--brend-color);
+  color: var(--white-color);
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
-}
-.button-text {
   font-weight: 500;
-
   display: flex;
   align-items: center;
   letter-spacing: 0.04em;
-
-  color: var(--white-color);
 }
 
 /*section-features*/
@@ -123,19 +123,21 @@ ul {
 .button-filter {
   background: #f4f4fd;
   cursor: pointer;
+  border: 1px solid #e7e9fc;
+  border-radius: 4px;
+  color: var(--brend-color);
 }
 .button-filter:hover {
   background-color: var(--active-color);
+  color: var(--white-color);
 }
-.button-filter-text {
-  color: var(--brend-color);
-}
+
 .button-filter-text:hover {
   color: var(--white-color);
 }
 .filter-item {
-  border: 1px solid #e7e9fc;
 }
+
 /*footer-text*/
 .footer {
   background-color: var(--title-color);
