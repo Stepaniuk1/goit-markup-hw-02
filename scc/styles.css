@@ -30,7 +30,6 @@ ul {
   font-weight: 800;
   font-size: 18px;
   line-height: 1.3;
-  align-items: center;
   letter-spacing: 0.03em;
   text-transform: uppercase;
   text-decoration: none;
@@ -41,7 +40,6 @@ ul {
 }
 .address-link {
   color: var(--main-color);
-  font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   font-style: normal;
@@ -50,12 +48,8 @@ ul {
 .nav-link {
   color: var(--main-color);
   text-decoration: none;
-  font-family: 'Roboto';
-  font-style: normal;
   font-weight: 500;
-  font-size: 16px;
   line-height: 1.5;
-
   letter-spacing: 0.02em;
 }
 .nav-link:hover,
